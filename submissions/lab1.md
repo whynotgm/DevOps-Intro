@@ -121,10 +121,7 @@ CommitDate: Sun Jun 7 15:27:56 2026 +0300
 ```
 
 Verified badge screenshot:
-
-```text
-TODO: attach a screenshot of the Verified badge from GitHub or GitLab after pushing feature/lab1.
-```
+![signing](img/image.png)
 
 ### Why Signed Commits Matter
 
