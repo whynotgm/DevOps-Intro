@@ -155,22 +155,7 @@ Template contents:
 
 PR evidence:
 
-```text
-TODO: after pushing, open the PR from whynotgm:feature/lab1 to inno-devops-labs:main and attach/link evidence that the PR description auto-populated from the template.
-```
-
-## Task 3: GitHub Community
-
-Required actions:
-
-- Starred `inno-devops-labs/DevOps-Intro`: TODO
-- Starred `simple-container-com/api`: TODO
-- Followed `Cre-eD`: TODO
-- Followed `Naghme98`: TODO
-- Followed `pierrepicaud`: TODO
-- Followed at least 3 classmates: TODO
-
-Stars matter in open source because they help developers bookmark useful projects and give maintainers a visible signal that the project is valuable to the community. Following developers helps teams notice each other's work, discover related projects, and build professional connections that are useful beyond a single course assignment.
+![pr_template](img/pr_template.png)
 
 ## Bonus Task: Branch Protection
 
