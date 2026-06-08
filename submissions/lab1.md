@@ -174,16 +174,26 @@ Stars matter in open source because they help developers bookmark useful project
 
 ## Bonus Task: Branch Protection
 
-Bonus was not completed from the local shell because it requires GitHub or GitLab repository settings and a remote push rejection screenshot.
-
-To complete it later:
-
-```text
-1. Enable signed commits, pull requests before merging, and linear history on main.
-2. Try an unsigned push to main.
-3. Paste the exact remote rejection line here.
-4. Attach a screenshot of the branch protection rule page.
 ```
+>>> DevOps-Intro % git push                                                        
+Enumerating objects: 1, done.
+Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1), 197 bytes | 197.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: error: GH006: Protected branch update failed for refs/heads/main.
+remote: 
+remote: - Commits must have verified signatures.
+remote:   Found 1 violation:
+remote: 
+remote:   45c1414e57f8e0677ec5e59591e80ceb80615c52
+remote: 
+remote: - Changes must be made through a pull request.
+To https://github.com/whynotgm/DevOps-Intro
+ ! [remote rejected] main -> main (protected branch hook declined)
+error: failed to push some refs to 'https://github.com/whynotgm/DevOps-Intro'
+```
+
+![protection](img/protection.png)
 
 Reflection:
 
